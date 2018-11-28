@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+    <head>	
+        <meta charset="UTF-8">	
+        <title>注册界面</title>	
+        <link rel="stylesheet" type="text/css" media="screen" href="css/bootstrap.css" />
+    </head>
+    <style> {margin: 0;padding:0;list-style: none;}
+    h2{color: #646262;text-align: center;font-size: 33px;padding:10px 0;font-weight: bold;}
+    h4{color: #646262;text-align: center;font-size: 15px;padding: 10px 0;}
+    .main p{ display:block;margin: 15px 0; }span{margin: 15px 0;}
+    .imga{	background: url('bg3.jpg') no-repeat;	width: 1500px;	height:1500px;	position: relative;	left:300px;	 }
+    .container{	width: 1000px;	height: 650px;	margin: 0 auto;	position: relative;	top: -780px; }
+    .hint{	height: 120px; }
+    .main{	height: 400px;}
+    .main form{	width: 220px;	margin: 0 auto;	margin-top: 20px;}
+    input[type="text"],
+    input[type="password"],
+    input[type="submit"]{	-web-kit-appearance:none;  	-moz-appearance: none;  	display: block;  	font-size:15px;}input[type="text"],
+    input[type="password"]{	height:30px;	width: 220px;	border-radius:5px;	border:1px solid #c8cccf;	color:#6a6f77;	outline:0;}
+    input[type="submit"]{	margin: 20px auto;	width: 60px;	height: 35px;	background: #357eb8;	color: #bcedff;	font-weight: bold;	font-size: 16px;}
+   
+    </style>
+    <body>
+            <div class="imga"></div>	
+            <div class="container">		
+            <div class="hint">		
+                <h2>衷心感谢您的参与</h2>		
+                <h4>请完成下面简单的信息填写</h4> 		
+            </div>		
+            <div class="main">			
+                		
+                <form action="#" method="get">				
+                    <p>姓名：<input type="text"></p>				
+                    <p>年龄：<input type="text"></p>				
+                    <p>学号：<input type="text"></p>
+                    <p>性别：<input type="radio" name='sex' value="女" checked="checked" />女				
+                         <input type="radio" name='sex' value="男" />男					 
+                         <input type="radio" name='sex' value="第三类" />第三类		
+                    </p>
+                    <span>院系					
+                        
+                            <select>  						
+                                
+                            <option>电气与电子工程学院</option>						
+                            <option>机械科学与工程学院</option>						
+                            <option>计算机科学与技术学院</option>						
+                            <option>生命科学与技术学院</option>					
+                            <option>材料科学与技术学院</option>						
+                            <option>……</option>	
+                        
+                        </select>				
+                    </span>				
+                    			
+                    <p>专业班级：<input type="text"></p>
+                    <P>邮箱：<input type="text"></p>
+                    <p>验证码：<input type="password" ></p>				
+            <input type="submit" value="注册" >  			
+        </form> 		
+    </div>		
+    
+        </div>
+        </body>
+        </html>
